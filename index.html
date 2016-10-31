@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/0b6ce4fc53.js"></script>
+  <title>Portfolio</title>
+</head>
+<body>
+  <header class="black-background">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <h1 class="header-logo">&#937;</h1>
+        </div>
+        <div  class="col-md-8 text-right text-uppercase nameplate gray-text">
+          <h1 class="name">Travis Alcantara</h1>
+          <h4 class="subtitle">Front-end White Belt</h4>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </header>
+  <main>
+      <section class="about-me">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12 profile-column">
+              <img src="images/profile2.jpg" alt="Photo of Travis"  class="profile-image">
+            </div>
+            <div class="description col-md-7 col-sm-12 col-xs-12 description-column">
+              <h2 class="thicker-font">About Me</h2>
+              <p>
+                Hello! My name is Travis Alcantara, and I am an aspiring web developer! I currently have
+                an understanding of the basic concepts of HTML5, CSS3 and Javascript and I am enrolled in
+                Udacity's Front-End Nanodegree program to enhance my skillset and build my portfolio. I am
+                very passionate about coding and am having an awesome time learning to be a web developer.
+                I aim to begin my career as a developer within the next year. When I'm not coding, I am training
+                and competing in martial arts!
+              </p>
+              <div class="row logos">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <img src="images/html5.png" alt="HTML5 logo" class="img-responsive logo-image">
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <img src="images/css3.svg" alt="CSS3 logo" class="img-responsive logo-image">
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <img src="images/js.svg" alt="JS logo" class="img-responsive logo-image">
+                </div>
+              </div>
+              <br/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="featured-work">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-9 col-sm-12 col-xs-12">
+              <h2 class="thicker-font gray-text">Featured Work</h2>
+              <br/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-4 project gray-text">
+              <img src="images/BJJ-350x150_medium.jpg" class="thumbnail img-responsive" alt="Jiujitsu placeholder image" data-target="#project1" data-toggle="modal">
+              <h3 class="text-uppercase thicker-font">Project 1</h3>
+              <p class="gray-text">www.url.com</p>
+            </div>
+            <div class="col-sm-6 col-md-4 project gray-text">
+              <img src="images/Muay-Thai-350x150_medium.jpg" class="thumbnail img-responsive" alt="Muay Thai placeholder image" data-target="#project2" data-toggle="modal">
+              <h3 class="text-uppercase thicker-font">Project 2</h3>
+              <p class="gray-text">www.url.com</p>
+            </div>
+            <div class="col-sm-6 col-md-4 project gray-text">
+              <img src="images/Yoga-350x150_medium.jpg" class="thumbnail img-responsive" alt="Yoga placeholder image" data-target="#project3" data-toggle="modal">
+              <h3 class="text-uppercase thicker-font">Project 3</h3>
+              <p class="gray-text">www.url.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+      <footer class="black-background">
+        <div class="container-fluid gray-text">
+          <h4>Connect with me!</h4>
+          <div class="social">
+            <a href="https://twitter.com/t_alcantara7" target="_blank" class="social-link fa fa-twitter gray-text"> Twitter</a>
+            <a href="https://www.linkedin.com/in/travis-alcantara-80a99354" target="_blank" class="social-link fa fa-linkedin gray-text"> Linkedin</a>
+            <a href="https://github.com/travalc" target="_blank" class="social-link github fa fa-github gray-text"> GitHub</a>
+          </div>
+        </div>
+      </footer>
+  <!-- Modals -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="modal-project1" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="modal-project1">Project 1</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/BJJ-350x150_medium.jpg" alt="Jiujitsu placeholder image">
+                  This was my first project in this class. I learned a lot about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="modal-project2" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="modal-project2">Project 2</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/Muay-Thai-350x150_medium.jpg" alt="Muay Thai placeholder image">
+                  This was my second project in this class. I learned a lot about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="modal-project3" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="modal-project3">Project 3</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/Yoga-350x150_medium.jpg" alt="Yoga placeholder image">
+                  This was my third project in this class. I learned a lot about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+    </div>
+</body>
+</html>

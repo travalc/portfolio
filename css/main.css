@@ -1,0 +1,81 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: #253F47;
+  font-size: 16px;
+  line-height: 1.25em;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  border-color: #CCC8C8;
+  border-width: thin;
+}
+.black-background {
+  background-color: #030202;
+}
+.about-me {
+  background-color: #CCC8C8;
+}
+.featured-work {
+  background-color: #A80314;
+}
+.social-link {
+  margin: 0 5em 0 0;
+}
+.github {
+  margin: 0;
+}
+.header-logo {
+  color: #A80314;
+  font-size: 100px;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+.gray-text {
+  color: #CCC8C8;
+}
+.name {
+  margin-bottom: 5px;
+}
+.subtitle {
+  margin-top: 5px;
+}
+.nameplate {
+  margin-top: 20px;
+}
+.thicker-font {
+  font-weight: 600;
+}
+.profile-image{
+  max-height: 100%;
+  max-height: 100%
+}
+.description {
+  float: right;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.project {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+.logos {
+  margin-top: 20px;
+}
+.logo-image {
+  width: 150px;
+  height: 150px;
+  vertical-align: top;
+  display: inline-block;
+}
+.thumbnail {
+  padding: 0;
+  width: 250px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
