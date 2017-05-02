@@ -25,7 +25,11 @@
     border-radius: 48%;
   }
   .bio-section {
+    margin-bottom: 40px;
     border-bottom: solid white 1px;
+  }
+  .skills-header {
+    text-align: left;
   }
 }
 @media screen and (min-width:996px) {
@@ -47,7 +51,7 @@
   .skills-section {
     float: right;
     padding-right: 0;
-    border-left: solid white 1px;
+
   }
   .description {
     margin-top: 2%;
