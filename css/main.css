@@ -87,7 +87,6 @@ a {
   width: 250px;
   height: 150px;
   display: block;
-  margin-bottom: 20px;
   margin: auto;
   -webkit-transition: width 0.5s, height 0.5s, box-shadow 0.5s;
   transition: width 0.5s, height 0.5s, box-shadow 0.5s;
@@ -109,4 +108,7 @@ a {
 }
 li {
   list-style-type: square;
+}
+.modal-link {
+  color: blue;
 }
