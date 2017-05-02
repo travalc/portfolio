@@ -34,8 +34,22 @@
      width: 275px;
      height: 275px;
      overflow: hidden;
-     margin-left: 15%;
+     margin-left: 37%;
      margin-top: 15px;
+
+  }
+  .bio-section {
+    float: left;
+  }
+  .skills-section {
+    float: right;
+    margin-left: 0;
+  }
+  .description {
+    margin-top: 2%;
+  }
+  .projects-head {
+    margin-left: 12%;
   }
 }
 @media screen and (max-width:760px) {
