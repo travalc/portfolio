@@ -3,8 +3,8 @@
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   color: #253F47;
-  font-size: 18px;
-  line-height: 1.25em;
+  font-size: 20px;
+  line-height: 1.5em;
 }
 body {
   margin: 0;
@@ -88,4 +88,10 @@ a {
 }
 .projects-head {
   text-align: center;
+}
+.aboutme-header {
+  text-align: center;
+}
+li {
+  list-style-type: square;
 }

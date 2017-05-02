@@ -31,12 +31,12 @@
     margin-left: 0;
   }
   .profile-image {
-     width: 275px;
-     height: 275px;
+     width: 300px;
+     height: 300px;
      overflow: hidden;
-     margin-left: 37%;
+     margin-left: 38%;
      margin-top: 15px;
-
+     border-radius: 50%;
   }
   .bio-section {
     float: left;
