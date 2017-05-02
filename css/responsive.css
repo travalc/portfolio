@@ -24,6 +24,9 @@
     height: 300px;
     border-radius: 48%;
   }
+  .bio-section {
+    border-bottom: solid white 1px;
+  }
 }
 @media screen and (min-width:996px) {
   .profile-column {
@@ -34,23 +37,26 @@
      width: 300px;
      height: 300px;
      overflow: hidden;
-     margin-left: 38%;
+     margin-left: 39%;
      margin-top: 15px;
-     border-radius: 50%;
+
   }
   .bio-section {
     float: left;
   }
   .skills-section {
     float: right;
-    margin-left: 0;
+    padding-right: 0;
+    border-left: solid white 1px;
   }
   .description {
     margin-top: 2%;
+
   }
   .projects-head {
     margin-left: 12%;
   }
+
 }
 @media screen and (max-width:760px) {
   .logo-image {
