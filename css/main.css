@@ -10,19 +10,24 @@ body {
   margin: 0;
   padding: 0;
 }
-hr {
-  border-color: #CCC8C8;
+.head-hr {
+  border-color: #CCC8C;
   border-width: thin;
+}
+.body-hr {
+  border-color: black;
+  border-width: thin;
+}
+a {
+  color: #CCC8C8;
 }
 .black-background {
   background-color: #030202;
 }
-.about-me {
-  background-color: #CCC8C8;
+.about-me, .featured-work, body {
+  background-color: #cbdbed;
 }
-.featured-work {
-  background-color: #A80314;
-}
+
 .social-link {
   margin: 0 5em 0 0;
 }
@@ -30,12 +35,15 @@ hr {
   margin: 0;
 }
 .header-logo {
-  color: #A80314;
+  color: #226644;
   font-size: 100px;
   font-family: "Times New Roman", Georgia, Serif;
 }
 .gray-text {
   color: #CCC8C8;
+}
+.black-text {
+  color: black;
 }
 .name {
   margin-bottom: 5px;
@@ -50,13 +58,13 @@ hr {
   font-weight: 600;
 }
 .profile-image{
-  max-height: 100%;
-  max-height: 100%
+  border-radius: 50%;
+  border: solid black;
 }
 .description {
   float: right;
-  margin-top: 30px;
-  margin-left: 15px;
+  margin-top: 0;
+  margin-right: 0;
 }
 .project {
   vertical-align: top;
