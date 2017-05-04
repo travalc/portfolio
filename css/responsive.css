@@ -16,6 +16,9 @@
     width:150px;
     height:150px;
   }
+  .project {
+    margin-top: 10%;
+  }
   .profile-image {
     display: block;
     margin: auto;
