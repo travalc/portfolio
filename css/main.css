@@ -24,8 +24,12 @@ a {
 .black-background {
   background-color: #030202;
 }
-.about-me, .featured-work, body {
+.about-me,  body {
   background-color: #cbdbed;
+}
+
+.featured-work {
+  background-color: #edeff4;
 }
 
 .social-link {
@@ -39,8 +43,8 @@ a {
   font-size: 100px;
   font-family: "Times New Roman", Georgia, Serif;
 }
-.gray-text {
-  color: #CCC8C8;
+.white-text {
+  color: #edeff4;
 }
 .black-text {
   color: black;
@@ -59,12 +63,12 @@ a {
 }
 .profile-image{
 
-  border: solid white 1px;
+  border: solid #edeff4 1px;
 }
 .description {
   margin-top: 0;
   margin-right: 0;
-  border-bottom: solid white 1px;
+
 }
 .project {
   vertical-align: top;
